@@ -9,7 +9,7 @@
   
   --hue: 180;
 
-  --primary-color: hsl(var(--hue), 100%, 26%);
+  --primary-color: hsl(206, 95%, 54%);
   --headline-color: hsl(210, 11%, 15%);
   --paragraph-color: hsl(210, 9%, 31%);
 
@@ -18,7 +18,7 @@
   --brand-light-color-2: hsl(calc(var(--hue) + 10), 14%, 97%);
   --brand-button-hover-color: hsl(var(--hue), 100%, 14%);
 
-  --background-light-color: hsl(180, 14%, 97%);
+  --background-light-color: hsla(224, 100%, 97%, 0.555);
 
   --nav-height: 7.2rem;
 }
@@ -293,7 +293,7 @@ body.menu-expanded button path {
   content: "";
   width: 100%;
   height: calc(76% + var(--nav-height));
-  background-color: var(--brand-light-color);
+  background-color: hsla(224, 100%, 97%, 0.555);
   display: block;
 
   position: absolute;
@@ -323,7 +323,7 @@ body.menu-expanded button path {
 }
 
 #home .stats {
-  background-color: var(--brand-beige-color);
+  background-color: hsl(61, 93%, 56%);
 
   width: 100%;
 
@@ -382,7 +382,7 @@ body.menu-expanded button path {
 
 /* ====================== ABOUT ===================== */
 #about {
-  background-color: var(--brand-beige-color);
+  background-color: hsl(199, 85%, 72%);
   text-align: left;
 }
 
@@ -719,15 +719,20 @@ footer .social-links {
   }
   
   footer .wrapper {
-      grid-template-columns: 1fr 1fr;
-      grid-template-areas: 'A B';
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: 'A C B';
+      /* template area C is the logo ! */
   }
 
   footer .col-a {
       align-self: center;
   }
 
-  .logosb { max-width: 19%; }
+  .col-c { 
+    max-width: 30%;
+    justify-self: center;
+    display: flex;
+   }
 
   footer .col-b {
       align-self: center;

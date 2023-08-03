@@ -351,9 +351,9 @@ body.menu-expanded button path {
 }
 
 #home .stat p {
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
   font-size: 1.6rem;
-  line-height: 150%;
+  line-height: 130%;
 
   margin: 0;
 }

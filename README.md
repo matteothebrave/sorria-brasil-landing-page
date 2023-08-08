@@ -6,7 +6,7 @@
 - [ ] Fix logo responsivity (footer) 
 - [ ] Fix writings
 - [ ] Remove all Lorem Ipsum
-- [ ] Remove icons like Facebook and stuff and change for new ones <br> <br> <br> 
+- [ x ] Remove icons like Facebook and stuff and change for new ones <br> <br> <br> 
 
 
 

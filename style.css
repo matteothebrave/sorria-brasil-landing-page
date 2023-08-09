@@ -64,7 +64,9 @@ ul {
 
 img {
   max-width: 100%;
+ 
 }
+
 
 section {
   padding-block: 10rem; /* block = top and bottom */
@@ -100,6 +102,7 @@ section .content p {
   font-weight: 400;
   line-height: 150%;
 }
+
 
 .button {
   background-color: var(--primary-color);
@@ -495,6 +498,10 @@ footer .social-links {
       display: grid;
      
   }
+
+.image2 {
+  width: 150%;
+}
 
   .col-a {
       grid-area: A;
